@@ -1,5 +1,6 @@
 .Pokedex {
   text-align: center;
+  display: table-cell;
 }
 
 .Pokedex-cards {
