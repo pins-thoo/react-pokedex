@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans');
+@font-face {
+  font-family: 'Pokemon GB';
+  src: url('https://cdn.rawgit.com/Superpencil/pokemon-font/d36892e5/fonts/pokemon-font.eot');
+  src: url('https://cdn.rawgit.com/Superpencil/pokemon-font/d36892e5/fonts/pokemon-font.woff');
+  font-weight: 400;
+}
+
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Work Sans';
+	font-family: 'Pokemon GB', monospace;
 	|: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	background-color: #eceff1;
